@@ -19,7 +19,7 @@
         prenom: document.getElementById("prenom").value,
         email: document.getElementById("email").value,
       };
-
+console.log("Données envoyées :", formData);
       try {
         const response = await fetch(scriptURL, {
           method: "POST",
