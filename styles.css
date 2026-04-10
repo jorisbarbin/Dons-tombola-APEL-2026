@@ -139,5 +139,6 @@
       }
       .pdfDoc {
          align-items: center;
+         max-width: 100%;
     }
 }
