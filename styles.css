@@ -122,9 +122,13 @@
     }
 
 .pdfDoc {
-        width: 80%;
-        margin: 0 auto;
-   }
+  display: block;
+  width: 80%;
+  max-width: 900px;
+  height: 800px;
+  margin: 30px auto 0;
+  border: none;
+}
 
     @media (max-width: 640px) {
       .container {
