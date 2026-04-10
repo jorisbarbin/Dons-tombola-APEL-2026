@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Dons matériels tombola – APEL</title>
+</head>
+<body>
+  <div class="container">
+    <img src="logo-apel.png" alt="Logo APEL" class="logo" />
+
+    <h1>Dons matériels pour la tombola</h1>
+
+    <p class="intro">
+      Merci pour votre soutien à l’APEL 😁<br />
+      Afin de préparer la tombola, nous recueillons ici les propositions de dons.<br />
+      30 secondes suffira pour remplir ce formulaire 🤗 MERCI 🤗
+    </p>
+
+    <form id="donForm">
+      <div class="field">
+        <label for="typeDon">Type de don</label>
+        <select id="typeDon" name="typeDon" required>
+          <option value="">-- Sélectionner --</option>
+          <option value="Bon cadeau">Bon cadeau</option>
+          <option value="Objet">Objet</option>
+          <option value="Jeu / jouet">Jeu / jouet</option>
+          <option value="Panier garni">Panier garni</option>
+          <option value="Prestation / service">Prestation / service</option>
+          <option value="Autre">Autre</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="description">Description du don</label>
+        <textarea id="description" name="description" placeholder="Exemple : bon cadeau de 20 €, panier garni, lot de livres..." required></textarea>
+      </div>
+
+      <div class="field">
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" required />
+      </div>
+
+      <div class="field">
+        <label for="prenom">Prénom</label>
+        <input type="text" id="prenom" name="prenom" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <button type="submit" id="submitBtn">Envoyer</button>
+    </form>
+
+    <div id="formMessage" class="message"></div>
+
+    <p class="small-note">
+      Les informations transmises sont utilisées uniquement dans le cadre de l’organisation de la tombola.
+    </p>
+  </div>
+</body>
+</html>
