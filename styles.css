@@ -121,6 +121,10 @@
       color: #6b7280;
     }
 
+.pdfDoc {
+   alignitem: center
+   }
+
     @media (max-width: 640px) {
       .container {
         padding: 24px 18px;
