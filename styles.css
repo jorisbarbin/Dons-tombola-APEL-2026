@@ -144,13 +144,32 @@
       h1 {
         font-size: 1.6rem;
       }
-.pdfDoc {
-  display: block;
-  width: 100%;
-  max-width: 640;
-  height: 1000px;
-  margin: 0 auto;
-  border: none;
-  background: white;
-}
     }
+
+@media (max-width: 1024px) {
+  .pdfDoc {
+    height: 900px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pdf-wrapper {
+    margin-top: 24px;
+    padding: 0 12px;
+  }
+
+  .pdfDoc {
+    height: 700px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pdf-wrapper {
+    margin-top: 20px;
+    padding: 0 8px;
+  }
+
+  .pdfDoc {
+    height: 500px;
+  }
+}
