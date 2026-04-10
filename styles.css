@@ -123,6 +123,7 @@
 
 .pdfDoc {
       display: block;
+      align-items: center;
       margin: 10 auto 20px;
    }
 
