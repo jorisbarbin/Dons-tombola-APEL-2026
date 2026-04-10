@@ -147,8 +147,8 @@
 .pdfDoc {
   display: block;
   width: 100%;
-  max-width: auto;
-  height: 100%;
+  max-width: 640;
+  height: 1000px;
   margin: 0 auto;
   border: none;
   background: white;
