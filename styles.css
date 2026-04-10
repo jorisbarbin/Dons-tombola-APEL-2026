@@ -122,7 +122,8 @@
     }
 
 .pdfDoc {
-   alignitem: center
+      display: block;
+      margin: 10 auto 20px;
    }
 
     @media (max-width: 640px) {
